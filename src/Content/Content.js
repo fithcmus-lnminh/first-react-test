@@ -20,8 +20,8 @@ class Content extends Component {
                     <h2 className="display-6">{this.props.title}</h2>
                     <p>{this.props.content}</p>
                     <div className="row">
-                        <div className="btn btn-info" onClick={this.edit}>Edit</div>
-                        <div className="btn btn-warning" onClick={this.remove}>Remove</div>
+                        <div className="btn btn-info" onClick={() => this.edit()}>Edit</div>
+                        <div className="btn btn-warning" onClick={() => this.remove()}>Remove</div>
                     </div>
                 </div>
             </div>
