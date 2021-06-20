@@ -9,9 +9,19 @@ function App() {
     <div className="App">
         <TopMenu/>
         <Header/>
-        <Content title="test props" position="order-lg-2" imageFile="01.jpg" content="This is content1"/>
-        <Content title="test props2" imageFile="02.jpg"content="This is content2"/>
-        <Content title="test props3" position="order-lg-2" imageFile="03.jpg" content="This is content3"/>
+        <div className="container">
+          <div className="row">
+            <Content title="test props" imageFile="01.jpg" content="This is content1"/>
+            <Content title="test props2" imageFile="02.jpg"content="This is content2"/>
+            <Content title="test props3" imageFile="03.jpg" content="This is content3"/>
+            <Content title="test props" imageFile="01.jpg" content="This is content1"/>
+            <Content title="test props2" imageFile="02.jpg"content="This is content2"/>
+            <Content title="test props3" imageFile="03.jpg" content="This is content3"/>
+            <Content title="test props" imageFile="01.jpg" content="This is content1"/>
+            <Content title="test props2" imageFile="02.jpg"content="This is content2"/>
+            <Content title="test props3" imageFile="03.jpg" content="This is content3"/>        
+          </div>
+        </div>
         <Footer content="Copyright &copy; by Lê Nhật Minh VNU-HCMUS"/>
     </div>
   );
